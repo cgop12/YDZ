@@ -6,7 +6,7 @@ a = Analysis(
     ['main.py'],
     pathex=['.', '..'],
     binaries=[],
-    datas=[('..\\common', 'common'), ('data', 'data'), ('protocol.md', '.'), ('..\\server.ico', '.')],
+    datas=[('..\\common', 'common'), ('data', 'data'), ('..\\server.ico', '.')],
     hiddenimports=[
         'common', 
         'common.logger', 
