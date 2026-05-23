@@ -6,7 +6,7 @@ a = Analysis(
     ['main.py'],
     pathex=['.', '..'],
     binaries=[],
-    datas=[('..\\common', 'common'), ('pages', 'pages'), ('..\\client.ico', '.'), ('gemini.png', '.'), ('shouwang.png', '.'), ('xiaowang.png', '.')],
+    datas=[('..\\common', 'common'), ('pages', 'pages'), ('..\\client.ico', '.')],
     hiddenimports=[
         'network', 
         'common.protocol', 
@@ -15,7 +15,6 @@ a = Analysis(
         'pages.lobby', 
         'pages.battle', 
         'pages.result',
-        'pages.splash',
         'typing_board', 
         'pages.overlay',
         'connection_diagnostic', 
