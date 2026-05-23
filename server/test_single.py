@@ -9,9 +9,9 @@ import random
 import os
 
 CLIENT_PATHS = [
-    r"D:\type_battle\client\dist\TypeBattleClient.exe",
-    r"D:\type_battle\client\TypeBattleClient.exe",
-    r"D:\type_battle\TypeBattleClient.exe",
+    r"D:\ydz\client\dist\YDZClient.exe",
+    r"D:\ydz\client\YDZClient.exe",
+    r"D:\ydz\YDZClient.exe",
 ]
 
 def find_client():

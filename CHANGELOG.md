@@ -1,6 +1,6 @@
-# TypeBattle 更新日志 (CHANGELOG)
+# YDZ 更新日志 (CHANGELOG)
 
-本文档记录 TypeBattle 项目的所有重要变更。格式遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 规范。
+本文档记录 YDZ 项目的所有重要变更。格式遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/) 规范。
 
 ---
 

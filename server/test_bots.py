@@ -14,7 +14,7 @@ HOST = "127.0.0.1"
 PORT = 8888
 BOT_COUNT = 5
 TYPING_SPEED = 0.07        # 每字间隔(模拟真人)
-CLIENT_EXE = r"D:\type_battle\TypeBattleClient\TypeBattleClient.exe"
+CLIENT_EXE = r"D:\ydz\YDZClient\YDZClient.exe"
 
 SURNAMES = "赵钱孙李周吴郑王冯陈褚卫蒋沈韩杨朱秦尤许何吕施张"
 GIVENS = "明伟芳敏静洋涛昊爽悦强毅峰雪琳辉建国志文"

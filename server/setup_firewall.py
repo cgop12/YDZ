@@ -20,7 +20,7 @@ def is_admin():
 
 def main():
     print("=" * 60)
-    print("  TypeBattle - Firewall Setup")
+    print("  YDZ - Firewall Setup")
     print("=" * 60)
     print()
 
@@ -35,8 +35,8 @@ def main():
     log("Adding firewall rules...")
 
     rules = [
-        ("TypeBattle TCP 8888", "TCP", 8888),
-        ("TypeBattle UDP 23333", "UDP", 23333),
+        ("YDZ TCP 8888", "TCP", 8888),
+        ("YDZ UDP 23333", "UDP", 23333),
     ]
 
     for name, proto, port in rules:
@@ -52,8 +52,8 @@ def main():
             log(f"ERROR: {name} - {e}")
 
     exe_paths = [
-        os.path.join(os.path.dirname(__file__), "TypeBattleServer.exe"),
-        os.path.join(os.path.dirname(__file__), "dist", "TypeBattleServer.exe"),
+        os.path.join(os.path.dirname(__file__), "YDZServer.exe"),
+        os.path.join(os.path.dirname(__file__), "dist", "YDZServer.exe"),
     ]
 
     for exe in exe_paths:
@@ -61,7 +61,7 @@ def main():
             log(f"Adding rule for {exe}...")
             cmd = [
                 "netsh", "advfirewall", "firewall", "add", "rule",
-                "name=TypeBattleServer App", "dir=in", "action=allow",
+                "name=YDZServer App", "dir=in", "action=allow",
                 f"program={exe}"
             ]
             try:

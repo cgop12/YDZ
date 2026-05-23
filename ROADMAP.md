@@ -1,6 +1,6 @@
-# TypeBattle 产品路线图 (ROADMAP)
+# YDZ 产品路线图 (ROADMAP)
 
-> 规划 TypeBattle 的未来发展方向和版本里程碑
+> 规划 YDZ 的未来发展方向和版本里程碑
 
 ---
 

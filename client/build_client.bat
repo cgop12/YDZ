@@ -3,7 +3,7 @@ chcp 65001 >nul 2>&1
 cd /d "%~dp0"
 
 echo ========================================
-echo TypeBattle Client - Build Script
+echo YDZ Client - Build Script
 echo ========================================
 echo.
 
@@ -12,7 +12,7 @@ if exist "dist" rd /s /q "dist"
 
 py -m pip install pyinstaller websockets PyQt6 psutil -q 2>nul
 
-py -m PyInstaller TypeBattleClient.spec --noconfirm
+py -m PyInstaller YDZClient.spec --noconfirm
 
 if %errorlevel% neq 0 (
     echo.
@@ -23,6 +23,6 @@ if %errorlevel% neq 0 (
 
 echo.
 echo ========================================
-echo Build complete: dist\TypeBattleClient.exe
+echo Build complete: dist\YDZClient.exe
 echo ========================================
 pause

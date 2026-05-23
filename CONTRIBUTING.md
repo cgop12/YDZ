@@ -1,6 +1,6 @@
-# TypeBattle 贡献指南 (CONTRIBUTING)
+# YDZ 贡献指南 (CONTRIBUTING)
 
-感谢您对 TypeBattle 项目的关注！本文档将帮助您了解如何参与项目贡献。
+感谢您对 YDZ 项目的关注！本文档将帮助您了解如何参与项目贡献。
 
 ---
 
@@ -137,7 +137,7 @@ python main.py
 
 ### Python 代码规范
 
-TypeBattle 项目遵循 **PEP 8** 规范，并使用以下补充规则：
+YDZ 项目遵循 **PEP 8** 规范，并使用以下补充规则：
 
 #### 1. 格式化工具配置
 
@@ -588,7 +588,7 @@ class TestProtocol:
 
 ## 📄 许可证
 
-TypeBattle 项目使用 [MIT 许可证](LICENSE)。
+YDZ 项目使用 [MIT 许可证](LICENSE)。
 
 通过贡献代码，您同意您的代码将按照 MIT 许可证的条款发布。
 

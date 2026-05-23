@@ -22,9 +22,9 @@ from typing import List
 # ──────────────────────────────────────────────────────────────
 
 CLIENT_PATHS = [
-    r"D:\type_battle\client\dist\TypeBattleClient.exe",
-    r"D:\type_battle\client\TypeBattleClient.exe",
-    r"D:\type_battle\TypeBattleClient.exe",
+    r"D:\ydz\client\dist\YDZClient.exe",
+    r"D:\ydz\client\YDZClient.exe",
+    r"D:\ydz\YDZClient.exe",
 ]
 
 HOST = "127.0.0.1"
@@ -203,7 +203,7 @@ def main():
     log("查找客户端 EXE...")
     client_exe = find_client()
     if not client_exe:
-        log("❌ 找不到 TypeBattleClient.exe！")
+        log("❌ 找不到 YDZClient.exe！")
         log("   请先运行 client/build.bat 编译")
         return
     log(f"✅ 找到: {client_exe}")
@@ -318,7 +318,7 @@ if __name__ == "__main__":
         try:
             import psutil
             for p in psutil.process_iter(['name']):
-                if 'TypeBattleClient' in p.info['name']:
+                if 'YDZClient' in p.info['name']:
                     try:
                         p.kill()
                     except:

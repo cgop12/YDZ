@@ -44,9 +44,9 @@ except ImportError:
 # 配置
 # ─────────────────────────────────────────────────────────────
 CLIENT_PATHS = [
-    r"D:\type_battle\client\dist\TypeBattleClient.exe",
-    r"D:\type_battle\client\TypeBattleClient.exe",
-    r"D:\type_battle\TypeBattleClient.exe",
+    r"D:\ydz\client\dist\YDZClient.exe",
+    r"D:\ydz\client\YDZClient.exe",
+    r"D:\ydz\YDZClient.exe",
 ]
 
 HOST = "127.0.0.1"
@@ -463,7 +463,7 @@ def main():
     log("正在查找客户端 EXE...")
     client_exe = find_client()
     if not client_exe:
-        log("❌ 找不到 TypeBattleClient.exe！")
+        log("❌ 找不到 YDZClient.exe！")
         log("   请确保以下路径之一存在：")
         for p in CLIENT_PATHS:
             log(f"   - {p}")
@@ -562,7 +562,7 @@ def main():
     print("=" * 62)
     print("  🎯 操作步骤：")
     print()
-    print("  1️⃣  确保服务端已启动（运行 server/main.py 或 TypeBattleServer.exe）")
+    print("  1️⃣  确保服务端已启动（运行 server/main.py 或 YDZServer.exe）")
     print("  2️⃣  在服务端界面点击『▶ 开始比赛』")
     print("  3️⃣  等待倒计时结束，机器人将自动开始打字")
     print()
@@ -592,7 +592,7 @@ def main():
     try:
         import psutil
         for p in psutil.process_iter(['name']):
-            if p.info['name'] and 'TypeBattleClient' in p.info['name']:
+            if p.info['name'] and 'YDZClient' in p.info['name']:
                 try:
                     p.kill()
                     log(f"已终止残留进程: PID={p.pid}")
@@ -610,11 +610,11 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         print("\n用户中断")
-        # 尝试清理所有残留的 TypeBattleClient 进程
+        # 尝试清理所有残留的 YDZClient 进程
         try:
             import psutil
             for p in psutil.process_iter(['name']):
-                if p.info['name'] and 'TypeBattleClient' in p.info['name']:
+                if p.info['name'] and 'YDZClient' in p.info['name']:
                     try:
                         p.kill()
                     except Exception:

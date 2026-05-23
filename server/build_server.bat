@@ -3,7 +3,7 @@ chcp 65001 >nul 2>&1
 cd /d "%~dp0"
 
 echo ========================================
-echo TypeBattle Server - Build Script
+echo YDZ Server - Build Script
 echo ========================================
 echo.
 
@@ -12,7 +12,7 @@ if exist "dist" rd /s /q "dist"
 
 py -m pip install pyinstaller websockets PyQt6 psutil -q 2>nul
 
-py -m PyInstaller TypeBattleServer.spec --noconfirm
+py -m PyInstaller YDZServer.spec --noconfirm
 
 if %errorlevel% neq 0 (
     echo.
@@ -23,6 +23,6 @@ if %errorlevel% neq 0 (
 
 echo.
 echo ========================================
-echo Build complete: dist\TypeBattleServer.exe
+echo Build complete: dist\YDZServer.exe
 echo ========================================
 pause

@@ -3,9 +3,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.egg-info/
-dist/
-build/
-*.spec
 
 # IDE
 .vscode/
@@ -18,7 +15,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Build outputs (keep spec files for PyInstaller)
+# Build outputs
 dist/
 build/
 *.exe

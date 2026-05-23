@@ -1,4 +1,4 @@
-# 🎮 TypeBattle - 打字对战
+# 🎮 YDZ - 打字对战
 
 > 局域网多人实时打字对战游戏
 
@@ -23,7 +23,7 @@
 
 ## 🎯 项目简介
 
-TypeBattle 是一款局域网多人打字对战游戏，支持 2-32 名玩家同时在线进行淘汰赛制比赛。游戏采用客户端-服务端架构，通过 WebSocket 实现实时通信。
+YDZ 是一款局域网多人打字对战游戏，支持 2-32 名玩家同时在线进行淘汰赛制比赛。游戏采用客户端-服务端架构，通过 WebSocket 实现实时通信。
 
 ### 技术栈
 
@@ -40,7 +40,7 @@ TypeBattle 是一款局域网多人打字对战游戏，支持 2-32 名玩家同
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      TypeBattle 功能                        │
+│                      YDZ 功能                        │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
 │  🎯 核心功能                                                  │
@@ -105,7 +105,7 @@ python main.py
 
 ```
 ╔════════════════════════════════════╗
-║     TypeBattle 服务器已启动          ║
+║     YDZ 服务器已启动          ║
 ╠════════════════════════════════════╣
 ║  WebSocket: ws://192.168.1.100:8888 ║
 ║  UDP 发现端口: 23333                ║
@@ -246,7 +246,7 @@ D:\type_battle\
 
 ## 🤝 贡献指南
 
-欢迎参与 TypeBattle 的开发！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何贡献代码。
+欢迎参与 YDZ 的开发！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何贡献代码。
 
 ### 当前版本路线图
 
@@ -271,20 +271,20 @@ v1.0 (当前) → v1.1 (代码重构) → v1.2 (质量提升) → v2.0 (AI对战
 ---
 
 <p align="center">
-  <strong>TypeBattle</strong> - 让打字变得有趣！
+  <strong>YDZ</strong> - 让打字变得有趣！
 </p>
 ## 打包说明
 
 客户端打包：
 ```
 cd D:\YDZ\client
-py -m PyInstaller TypeBattleClient.spec --noconfirm
+py -m PyInstaller YDZClient.spec --noconfirm
 ```
 
 服务器端打包：
 ```
 cd D:\YDZ\server
-py -m PyInstaller TypeBattleServer.spec --noconfirm
+py -m PyInstaller YDZServer.spec --noconfirm
 ```
 
 全部打包：
