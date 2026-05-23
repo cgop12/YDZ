@@ -264,7 +264,26 @@ v1.0 (当前) → v1.1 (代码重构) → v1.2 (质量提升) → v2.0 (AI对战
 
 ---
 
-## 🙏 致谢
+## 🙏 开发者
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/cgop12">
+        <img src="https://avatars.githubusercontent.com/u/266697329?v=4" width="80" height="80" alt="守望"><br>
+        <strong>守望</strong>
+      </a><br>
+      <sub>发起人 & 测试</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/cgop12">
+        <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f609.png" width="80" height="80" alt="小望"><br>
+        <strong>小望</strong>
+      </a><br>
+      <sub>全栈架构 & 开发</sub>
+    </td>
+  </tr>
+</table>
 
 感谢所有参与项目开发的贡献者！
 
